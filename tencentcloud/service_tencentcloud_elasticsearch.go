@@ -2,7 +2,7 @@ package tencentcloud
 
 import (
 	"context"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	es "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/es/v20180416"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/connectivity"

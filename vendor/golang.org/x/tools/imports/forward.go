@@ -4,7 +4,7 @@ package imports // import "golang.org/x/tools/imports"
 
 import (
 	"go/build"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 
 	intimp "golang.org/x/tools/internal/imports"

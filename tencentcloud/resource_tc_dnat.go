@@ -29,7 +29,7 @@ package tencentcloud
 import (
 	"encoding/json"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net"
 	"net/url"
 	"strconv"

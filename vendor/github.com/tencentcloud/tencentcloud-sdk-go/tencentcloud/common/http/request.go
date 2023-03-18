@@ -2,7 +2,7 @@ package common
 
 import (
 	"io"
-	//"log"
+	//log "github.com/sourcegraph-ce/logrus"
 	"math/rand"
 	"net/url"
 	"reflect"
