@@ -1,7 +1,7 @@
 package golinters
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"sync"
 
