@@ -28,7 +28,7 @@ data "tencentcloud_nats" "multi_nat" {
 package tencentcloud
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"

@@ -23,7 +23,7 @@ data "tencentcloud_dnats" "foo" {
 package tencentcloud
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strconv"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
