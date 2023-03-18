@@ -34,7 +34,7 @@ package tencentcloud
 
 import (
 	"context"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/internal/helper"

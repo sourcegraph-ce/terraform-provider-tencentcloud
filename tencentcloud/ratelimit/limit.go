@@ -2,7 +2,7 @@ package ratelimit
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"math/rand"
 	"runtime"
 	"strings"

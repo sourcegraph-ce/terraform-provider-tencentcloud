@@ -18,7 +18,7 @@ package tencentcloud
 
 import (
 	"context"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"reflect"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"

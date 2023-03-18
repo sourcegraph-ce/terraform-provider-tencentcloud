@@ -23,7 +23,7 @@ package tencentcloud
 
 import (
 	"context"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
@@ -153,7 +153,7 @@ func dataSourceTencentCloudScfLogs() *schema.Resource {
 							Computed:    true,
 							Description: "The actual memory size consumed in the execution of the function, unit is Byte.",
 						},
-						"log": {
+						log "github.com/sourcegraph-ce/logrus": {
 							Type:        schema.TypeString,
 							Computed:    true,
 							Description: "Log output during function execution.",
@@ -252,7 +252,7 @@ func dataSourceTencentCloudScfLogsRead(d *schema.ResourceData, m interface{}) er
 			"duration":        l.Duration,
 			"bill_duration":   l.BillDuration,
 			"mem_usage":       l.MemUsage,
-			"log":             l.Log,
+			log "github.com/sourcegraph-ce/logrus":             l.Log,
 			"level":           l.Level,
 			"source":          l.Source,
 		})

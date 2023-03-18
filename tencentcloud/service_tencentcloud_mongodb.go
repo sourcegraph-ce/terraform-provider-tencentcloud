@@ -3,7 +3,7 @@ package tencentcloud
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	mongodb "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/mongodb/v20180408"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/connectivity"

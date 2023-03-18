@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	//"log"
+	//log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/errors"
